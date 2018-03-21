@@ -1,0 +1,22 @@
+app:
+  name: demo1
+
+jwt:
+  header: Authorization
+  expires_in: 9000000 # seconds ( 10 days )
+  mobile_expires_in: 9000000 #
+  secret: baduk
+
+
+spring:
+  jpa:
+    hibernate:
+      # possible values: none | validate | update | create | create-drop
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/ameniti_suite
+#    url: jdbc:mysql://159.8.214.186:3306/ameniti_suite
+    username: suite
+    password: k4l1Su1t32018&$%.#
+    driver-class-name: com.mysql.jdbc.Driver
+
