@@ -109,7 +109,7 @@
         </dependency>
 
 
-        <!-- we want to deploy on tomcat        -->
+        <!-- we want to deploy on tomcat         -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
